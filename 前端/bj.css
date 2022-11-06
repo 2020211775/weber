@@ -1,0 +1,119 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(150px,auto);
+}
+.t {
+    text-align: left;
+    color: black;
+    padding: 50px;
+    font-size: 150%;
+}
+.child1 {
+    background-color: crimson;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.child2 {
+    background-color: rgb(20, 133, 220);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.child3 {
+    background-color: rgb(204, 248, 7);
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.child4 {
+    background-color: red(242, 4, 246);
+    grid-column: 4 / 5;
+    grid-row: 1 / 2;
+}
+
+.child5 {
+    background-color: rgb(9, 105, 239);
+    grid-column: 5 / 6;
+    grid-row: 1 / 2;
+}
+
+.child6 {
+    background-color: rgb(6, 124, 242);
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.child7 {
+    background-color: crimson;
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
+
+.child8 {
+    background-color: rgb(35, 173, 88);
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.child9 {
+    background-color: rgb(162, 122, 119);
+    grid-column: 4 / 6;
+    grid-row: 3 / 5;
+}
+
+.child10 {
+    background-color: rgb(81, 84, 197);
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+.child11 {
+    background-color: rgb(52, 195, 238);
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.child12 {
+    background-color: rgb(107, 98, 102);
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.child13 {
+    background-color: rgb(50, 112, 199);
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.child14 {
+    background-color: rgb(31, 28, 21);
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+.child15 {
+    background-color: rgb(218, 226, 219);
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+
+.child16 {
+    background-color: rgb(148, 234, 114);
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.child17 {
+    background-color: rgb(190, 20, 220);
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+.child18 {
+    background-color: rgb(168, 154, 117);
+    grid-column: 4 / 5;
+    grid-row: 5 / 6;
+}
